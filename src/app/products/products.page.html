@@ -1,0 +1,49 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <div class="left">
+        <ion-title>Menu</ion-title>
+      </div>
+      <div class="right">
+        <ion-menu-toggle>
+          <ion-button size="small" shape="round" color="danger">Close</ion-button>
+        </ion-menu-toggle>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-item button(click)="schedule()">
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-label><h2>&nbsp;Services</h2></ion-label>
+    </ion-item>
+    <ion-item button (click)="contacts()">
+      <ion-icon name="call-outline"></ion-icon>
+      <ion-label><h2>&nbsp;Contacts</h2></ion-label>
+    </ion-item>
+    <ion-item button (click)="faqs()">
+      <ion-icon name="help-circle-outline"></ion-icon>
+      <ion-label><h2>&nbsp;FAQs</h2></ion-label>
+    </ion-item>
+    <ion-item button (click)="profile()">
+      <ion-icon name="person-outline"></ion-icon>
+      <ion-label><h2>&nbsp;Profile</h2></ion-label>
+    </ion-item>
+    <ion-item button color="danger" (click)="backToHome()">
+      <ion-icon name="log-out-outline"></ion-icon>
+      <ion-label><h2>&nbsp;Logout</h2></ion-label>
+    </ion-item>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Products</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding bgImg">
+     
+  </ion-content>
+</div>

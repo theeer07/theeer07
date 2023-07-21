@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true">
+  <div>
+    <ion-button fill="clear" class="left" (click)="backToHome()">
+      <ion-icon class="backBtn" name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <ion-list class="container2">
+    <div class="container">
+      <h3 class="ion-text-center hdrStyleTwo">Fill up this form</h3>
+      <ion-list class="listDesign">
+        <ion-item class="rounded">
+          <ion-input label="Username" placeholder="Enter Username"></ion-input>
+        </ion-item>
+        <ion-item class="rounded">
+          <ion-input label="Password" type="password" value=""></ion-input>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div class="row center ">
+      <div class="col text-center ">
+        <ion-button shape="round" (click)="loggedIn()">Log In</ion-button>
+      </div>
+    </div>
+  </ion-list>
+
+  <div class="center">
+    <a class=" row center" id="present-alert">Forget Password?</a>
+    <a class=" row center" (click)="signMeUp()">Create Account</a>
+  </div>
+  <ion-alert  trigger="present-alert" 
+              header="Forget Password" 
+              subHeader="Instructions:" 
+              message="Enter your registered email address below. An email will be sent to this address for password reset confirmation"
+              [buttons]="alertButtonsOK"
+              [inputs]="alertEmailInput">
+  </ion-alert>
+</ion-content>

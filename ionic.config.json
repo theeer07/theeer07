@@ -1,0 +1,7 @@
+{
+  "name": "Balmes Boat Builders",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

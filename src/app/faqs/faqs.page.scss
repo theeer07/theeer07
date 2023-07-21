@@ -1,0 +1,81 @@
+.bgImg {
+    --background: linear-gradient(rgba(92, 174, 250, 0.7), rgba(102, 243, 236, 0.7)), url(/assets/images/boatBg2.jpeg) 0 0/100% 100% no-repeat;
+}
+
+.hdrStyleOne {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.hdrStyleTwo {
+    color: #000000;
+}
+
+.getStartedBtn {
+    --background: #ffffff;
+    color: #000000;
+}
+
+.right {
+    float: right;
+    margin-right: 10px;
+}
+
+.left {
+    float: left;
+    margin-top: 5px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.rounded {
+    --background: #2e7cea;
+    width: 100%;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.listDesign{
+    --background: #2e7cea;
+    width: 100%;
+}
+
+.container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    margin-top: 15%;
+    border-radius: 25px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.listDesign {
+    border-radius: 5%;
+    padding: 1vw;
+    background-color: #ffffff;
+}
+
+a {
+    color: #212121;
+    text-decoration: underline;
+}
+
+.backBtn {
+    color: #ffffff;
+}

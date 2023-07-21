@@ -1,0 +1,154 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <div class="left">
+        <ion-title>Menu</ion-title>
+      </div>
+      <div class="right">
+        <ion-menu-toggle>
+          <ion-button size="small" shape="round" color="danger">Close</ion-button>
+        </ion-menu-toggle>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-item button (click)="schedule()">
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-label>
+        <h2>&nbsp;Products</h2>
+      </ion-label>
+    </ion-item>
+    <ion-item button (click)="products()">
+      <ion-icon name="pricetag-outline"></ion-icon>
+      <ion-label>
+        <h2>&nbsp;Products</h2>
+      </ion-label>
+    </ion-item>
+    <ion-item button (click)="contacts()">
+      <ion-icon name="call-outline"></ion-icon>
+      <ion-label>
+        <h2>&nbsp;Contacts</h2>
+      </ion-label>
+    </ion-item>
+    <ion-item button color="success" (click)="faqs()">
+      <ion-icon name="help-circle-outline"></ion-icon>
+      <ion-label>
+        <h2>&nbsp;FAQs</h2>
+      </ion-label>
+    </ion-item>
+    <ion-item button (click)="profile()">
+      <ion-icon name="person-outline"></ion-icon>
+      <ion-label>
+        <h2>&nbsp;Profile</h2>
+      </ion-label>
+    </ion-item>
+    <ion-item button color="danger" (click)="backToHome()">
+      <ion-icon name="log-out-outline"></ion-icon>
+      <ion-label>
+        <h2>&nbsp;Logout</h2>
+      </ion-label>
+    </ion-item>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Frequently Ask Questions</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding bgImg">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>What services does Balmes Boat Builders Marine Supply offer? </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Balmes Boat Builders Marine Supply offers boat building (hull only), boat repair (hull only), and boat documentation services.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Can you provide more details about boat building (hull  only?)  </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Boat building (hull only) refers to the construction of the boat's structural framework, including the hull. Balmes Boat Builders Marine Supply specializes in building high-quality boat hulls tailored to the customer's specifications.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>What types of boats can be repaired by Balmes Boat Builders Marine Supply?</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Balmes Boat Builders Marine Supply provides boat repair services for various types of boats, focusing specifically on hull repairs. Whether it's fiberglass, aluminum, or other hull materials, they have the expertise to address and fix issues.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>What does boat documentation involve?</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Boat documentation is the process of registering and documenting a boat with the relevant authorities, such as the Coast Guard. Balmes Boat Builders Marine Supply assists customers in completing the necessary paperwork and guides them through the boat documentation process.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>How experienced is Balmes Boat Builders Marine Supply in the marine industry?</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Balmes Boat Builders Marine Supply has been operating in the marine industry for over 20 years. They have a team of experienced professionals with extensive knowledge and skills in boat building, repair, and documentation.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Can Balmes Boat Builders Marine Supply handle custom boat building project? </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Yes, Balmes Boat Builders Marine Supply specializes in custom boat building. They work closely with customers to understand their specific requirements and design a boat that meets their needs, ensuring high-quality craftsmanship throughout the process.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title> What is the typical turnaround time for boat repairs at Balmes Boat Builders Marine Supply? </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        The turnaround time for boat repairs can vary depending on the extent of the damage and the workload at the time. Balmes Boat Builders Marine Supply strives to complete repairs efficiently while maintaining a high standard of quality. They provide estimates on a case-by-case basis.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title> Does Balmes Boat Builders Marine Supply offer warranty or guarantees on their services?</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Yes, Balmes Boat Builders Marine Supply stands behind their workmanship and may offer warranties or guarantees on certain services. It's best to inquire directly with their customer support team for specific details regarding warranties and guarantees.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>How can I contact Balmes Boat Builders Marine Supply for inquiries or to request services? </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        You can contact Balmes Boat Builders Marine Supply by phone a [phone number] or by email at [email address]. They also have a physical location where you can visit to discuss your needs in person. Details regarding their contact information can be found on their website.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Are there any additional services provided by Balmes Boat Builders Marine Supply? </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        While boat building (hull only), boat repair (hull only), and boat documentation are their primary services, Balmes Boat Builders Marine Supply may offer additional services such as hull modifications, boat storage, or recommendations for other marine- related needs. It's recommended to inquire directly with them for more information.
+      </ion-card-content>
+    </ion-card>
+
+  </ion-content>
+</div>

@@ -1,0 +1,55 @@
+<ion-content [fullscreen]="true">
+
+  <div>
+    <ion-button fill="clear" class="left" (click)="logMeIn()">
+      <ion-icon class="backBtn" name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <ion-list class="container2">
+    <div class="container">
+
+      <h3 class="ion-text-center hdrStyleTwo">Sign up</h3>
+      <hr>
+
+      <ion-list class="listDesign">
+
+        <h6 class="hdrStyleTwo">First Name</h6>
+        <ion-item class="rounded">
+          <ion-input placeholder="Enter your First Name."></ion-input>
+        </ion-item>
+
+        <h6 class="hdrStyleTwo">Last Name</h6>
+        <ion-item class="rounded">
+          <ion-input placeholder="Enter your Last Name."></ion-input>
+        </ion-item>
+
+        <h6 class="hdrStyleTwo">Username</h6>
+        <ion-item class="rounded">
+          <ion-input placeholder="Enter your Username."></ion-input>
+        </ion-item>
+
+        <h6 class="hdrStyleTwo">Email</h6>
+        <ion-item class="rounded">
+          <ion-input type="email" placeholder="Enter your email."></ion-input>
+        </ion-item>
+
+        <h6 class="hdrStyleTwo">Create a Password</h6>
+        <ion-item class="rounded">
+          <ion-input type="password" value=""></ion-input>
+        </ion-item>
+
+      </ion-list>
+
+    </div>
+
+    <br>
+
+    <div class="center ">
+      <div class="center ">
+        <ion-button class="signUPButton" (click)="presentAlert()">Sign Up</ion-button>
+      </div>
+    </div>
+
+  </ion-list>
+</ion-content>
